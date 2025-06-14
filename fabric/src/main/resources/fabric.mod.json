@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "yaclsynced",
-  "version": "${version}",
+  "version": "${version}-fabric",
   "name": "YACLSynced",
-  "description": "A addon for YetAnotherConfigLib with server-client config synchronization",
+  "description": "An addon for YetAnotherConfigLib with server-client config synchronization",
   "authors": [
     "Tigercrl"
   ],

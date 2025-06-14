@@ -5,11 +5,11 @@ license = "GNU LGPL 3.0"
 
 [[mods]]
 modId = "yaclsynced"
-version = "${version}"
+version = "${version}-neoforge"
 displayName = "YACLSynced"
 authors = "Tigercrl"
 description = '''
-A addon for YetAnotherConfigLib with server-client config synchronization
+An addon for YetAnotherConfigLib with server-client config synchronization
 '''
 logoFile = "assets/yaclsynced/icon.png"
 updateJSONURL = "https://api.modrinth.com/updates/yacl-synced/forge_updates.json"
