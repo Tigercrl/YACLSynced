@@ -1,0 +1,6 @@
+{
+  "yaclsynced.restart.message": "一个或多个选项需要你重新启动游戏来加入此服务器。",
+  "yaclsynced.restart.yes": "更改并退出游戏",
+  "yaclsynced.restart.subtitle": "配置文件 %s 中",
+  "yaclsynced.restart.info": "%1$s §7-> %2$s§7（客户端） §8/ %3$s§7（服务器）"
+}

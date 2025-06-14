@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "io.github.tigercrl.yaclsynced.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "ConnectScreenMixin"
+  ],
+  "mixins": [
+    "GsonConfigSerializerMixin",
+    "OptionFactoryRegistryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "yaclsynced.restart.message": "One or more options needs you to restart the game to join the server.",
+  "yaclsynced.restart.yes": "Change & Quit Game",
+  "yaclsynced.restart.subtitle": "In config %s",
+  "yaclsynced.restart.info": "%1$s §7-> %2$s §7(client) §8/ %3$s §7(server)"
+}
