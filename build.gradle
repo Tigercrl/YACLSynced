@@ -33,11 +33,6 @@ subprojects {
             name 'Xander Maven'
             url 'https://maven.isxander.dev/releases'
         }
-
-        maven {
-            name 'Quilt Maven'
-            url 'https://maven.quiltmc.org/repository/release/'
-        }
     }
 
     dependencies {
@@ -74,6 +69,15 @@ subprojects {
             // Notice: This block does NOT have the same function as the block in the top level.
             // The repositories here will be used for publishing your artifact, not for
             // retrieving dependencies.
+
+            maven {
+                name 'tiger-maven'
+                url 'https://maven.tigercrl.top/releases'
+                credentials {
+                    username = System.getenv("MAVEN_USERNAME")
+                    password = System.getenv("MAVEN_SECRET")
+                }
+            }
         }
     }
 }

@@ -17,10 +17,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.tigercrl.yaclsynced.fabric.YaclSyncedFabric"
+      "top.tigercrl.yaclsynced.fabric.YaclSyncedFabric"
     ],
     "client": [
-      "io.github.tigercrl.yaclsynced.fabric.client.YaclSyncedFabricClient"
+      "top.tigercrl.yaclsynced.fabric.client.YaclSyncedFabricClient"
     ]
   },
   "mixins": [

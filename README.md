@@ -17,13 +17,25 @@ YACL Synced is an addon for YACL that adds the feature.
 
 ```groovy
 // build.gradle
-maven {
-    name = "Modrinth"
-    url = "https://api.modrinth.com/maven"
+repositories {
+    maven { // Only needed for forge
+        name = 'Kotlin for Forge'
+        url = 'https://thedarkcolour.github.io/KotlinForForge/'
+    }
+
+    maven {
+        name 'Xander Maven'
+        url 'https://maven.isxander.dev/releases'
+    }
+
+    maven {
+        name = "Tiger Maven"
+        url = "https://maven.tigercrl.top/releases/"
+    }
 }
 
 dependencies {
-    modImplementation "maven.modrinth:yacl-synced:<version>-<fabric/neoforge>"
+    modImplementation "top.tigercrl:YACLSynced-<common/fabric/neoforge>:<version>"
 }
 ```
 
